@@ -17,5 +17,5 @@ Step -3 : npm run dev
 
 step- 4 : Open Browser and visit http://localhost:5173/
 
-Hosted Link  - https://tooltip-skilltest1.netlify.app/
+Hosted Link  - https://tooltip-skilltest.netlify.app/
 
