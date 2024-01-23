@@ -4,7 +4,7 @@ import { Tooltip } from "react-tooltip"; //npm package to manage tooltip
 
 function App() {
   //created a state to update position 
-  const [place, setPlace] = useState("top");
+  const [place, setPlace] = useState("right");
 
   //created a function to update state as per position input from user
   function updateData(n) {
@@ -29,10 +29,9 @@ function App() {
       >
         Hover over me
       </h2>
-      {/* added Tooltip component and added place attribute along with state to update the postion of tooltip and added some inline styling*/}
+      {/* added Tooltip component and added place attribute along with state to update the postion of tooltip */}
       <Tooltip
         id="my-tooltip"
-        style={{ backgroundColor: "white", color: "#000" }}
         place={place}
       />
     </div>
